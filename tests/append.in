@@ -1,0 +1,16 @@
+append a 28
+set a 18 29 3
+get a
+append a 1 2 3
+get a
+set b 1 20 3
+set c 1 b 2
+append a c
+list entries
+forward a
+forward b
+forward c
+backward a
+backward b
+backward c
+bye

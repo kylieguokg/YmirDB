@@ -1,0 +1,35 @@
+set a
+set b 1 a
+set c 2 b
+set d 3 c
+set e 4 d
+list entries
+len a
+len b
+len c
+len d
+len e
+pop b
+list entries
+len a
+len b
+len c
+len d
+len e
+push a 1 2 3 4 5
+append b 2
+list entries
+len a
+len b
+len c
+len d
+len e
+pluck a 1
+append b a
+list entries
+len a
+len b
+len c
+len d
+len e
+bye

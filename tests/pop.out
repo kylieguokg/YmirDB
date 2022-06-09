@@ -1,0 +1,79 @@
+> no such key
+
+> ok
+
+> [1 2 3]
+
+> 1
+
+> 2
+
+> 3
+
+> nil
+
+> []
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> e [d 1]
+d [c 1]
+c [b 1]
+b [a 1]
+a []
+
+> nil
+
+> a
+
+> a, b
+
+> a, b, c
+
+> a, b, c, d
+
+> b, c, d, e
+
+> c, d, e
+
+> d, e
+
+> e
+
+> nil
+
+> b
+
+> e [d 1]
+d [c 1]
+c [1]
+b [a 1]
+a []
+
+> nil
+
+> a
+
+> nil
+
+> c
+
+> c, d
+
+> b
+
+> nil
+
+> d, e
+
+> e
+
+> nil
+
+> bye

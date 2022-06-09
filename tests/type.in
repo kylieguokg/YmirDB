@@ -1,0 +1,18 @@
+type no
+set a
+type a
+set a 1 2 3
+set b 0
+append a b
+get a
+type a
+pluck a 4
+get a
+type a
+push a b
+get a
+type a 
+pop a
+get a
+type a
+bye

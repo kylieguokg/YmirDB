@@ -1,0 +1,24 @@
+snapshot
+set a 28 19 0
+list entries
+snapshot
+push a 0
+set b 28
+list entries
+snapshot
+checkout 1
+list entries
+set new 1 2 3
+list entries
+snapshot
+checkout 2
+list entries
+checkout 3
+list entries
+checkout 5
+checkout 0
+checkout 1
+list entries
+checkout 4
+list entries
+bye

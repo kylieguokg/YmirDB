@@ -1,0 +1,20 @@
+rollback 0
+set a 1 2 3
+list entries
+snapshot
+set b 29 38 10
+list entries
+snapshot
+set c -1 -2 -3
+list entries
+snapshot
+rollback 1
+list entries
+set new 2 3 0
+list entries
+snapshot
+checkout 2
+checkout 3
+checkout 4
+list entries
+bye

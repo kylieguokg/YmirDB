@@ -1,0 +1,86 @@
+set h 1
+set g 1
+set f 1
+set e 1
+set d 1
+list entries
+snapshot
+set c f g 2
+set b d e 2
+list entries
+snapshot
+set a 3 c b h 2
+list entries
+snapshot
+del a
+del b
+del c
+del d
+del e
+del f
+del g
+del h
+list entries
+checkout 2
+list entries
+purge h
+purge g
+purge f
+purge e
+purge d
+purge c
+purge b
+purge a
+list entries
+checkout 3
+list entries
+set a 3 c b h 2
+list entries
+sum h
+sum g
+sum f
+sum e
+sum d
+sum c
+sum b
+sum a
+pop c
+list entries
+forward a
+forward b
+forward c
+forward d
+forward e
+forward f
+forward g
+forward h
+backward a
+backward b
+backward c
+backward d
+backward e
+backward f
+backward g
+backward h
+sum h
+sum g
+sum f
+sum e
+sum d
+sum c
+sum b
+sum a
+del a
+list entries
+drop 3
+list snapshots
+purge b
+purge c
+checkout 2
+list entries
+checkout 1
+list entries
+rollback 2
+list snapshots
+list entries
+bye

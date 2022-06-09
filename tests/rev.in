@@ -1,0 +1,21 @@
+rev notExist
+set a
+get a
+rev a
+get a
+append a 1
+get a
+rev a
+get a
+set a 1 2 3
+get a
+rev a
+get a
+push a 4
+get a
+rev a
+get a
+set b a
+type b
+rev b
+bye

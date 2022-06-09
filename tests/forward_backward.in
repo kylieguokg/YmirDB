@@ -1,0 +1,40 @@
+set a 1
+set f 1
+set g 1
+set b a
+set c b
+set e f g
+set d c e
+list entries
+forward a
+forward b
+forward c
+forward d
+forward e
+forward f
+forward g
+backward a
+backward b
+backward c
+backward d
+backward e
+backward f
+backward g
+pop d
+pop d
+list entries
+forward a
+forward b
+forward c
+forward d
+forward e
+forward f
+forward g
+backward a
+backward b
+backward c
+backward d
+backward e
+backward f
+backward g
+bye

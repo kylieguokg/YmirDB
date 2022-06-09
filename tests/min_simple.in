@@ -1,0 +1,11 @@
+min no
+set a
+get a
+min a
+push a 0
+get a
+min a
+set entry -1000 100 -1000 20 28 1000 -999
+get entry
+min entry
+bye

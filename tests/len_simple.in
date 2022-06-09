@@ -1,0 +1,16 @@
+len a
+set a 1 2 3
+get a
+len a
+append a 4 5 6
+len a
+pop a
+len a
+pluck a 1
+pluck a 1
+pluck a 1
+pluck a 1
+pluck a 1
+get a
+len a
+bye

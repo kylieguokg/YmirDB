@@ -1,0 +1,109 @@
+set a 1
+set b 1
+set g 1
+set h 1
+list entries
+snapshot
+set f a b
+set e g h
+list entries
+snapshot
+set d f
+append e d
+list entries
+snapshot
+rollback 3
+snapshot
+checkout 4
+len a
+len b
+len d
+len e
+len f
+len g 
+len h
+forward a
+forward b
+forward d
+forward e
+forward f
+forward g
+forward h
+backward a
+backward b
+backward d
+backward e
+backward f
+backward g
+backward h
+pluck e 3
+push d e
+list entries
+len a
+len b
+len d
+len e
+len f
+len g 
+len h
+forward a
+forward b
+forward d
+forward e
+forward f
+forward g
+forward h
+backward a
+backward b
+backward d
+backward e
+backward f
+backward g
+backward h
+pop d
+append e d
+list entries
+len a
+len b
+len d
+len e
+len f
+len g 
+len h
+forward a
+forward b
+forward d
+forward e
+forward f
+forward g
+forward h
+backward a
+backward b
+backward d
+backward e
+backward f
+backward g
+backward h
+set k 28
+append a k
+list entries
+max a
+max b
+max d
+max e
+max f
+max g 
+max h
+max k
+min a
+min b
+min d
+min e
+min f
+min g 
+min h
+min k
+drop 3
+rollback 3
+rollback 2
+bye

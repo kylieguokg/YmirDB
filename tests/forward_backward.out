@@ -1,0 +1,91 @@
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> d [c e]
+e [f g]
+c [b]
+b [a]
+g [1]
+f [1]
+a [1]
+
+> nil
+
+> a
+
+> a, b
+
+> a, b, c, e, f, g
+
+> f, g
+
+> nil
+
+> nil
+
+> b, c, d
+
+> c, d
+
+> d
+
+> nil
+
+> d
+
+> d, e
+
+> d, e
+
+> c
+
+> e
+
+> d []
+e [f g]
+c [b]
+b [a]
+g [1]
+f [1]
+a [1]
+
+> nil
+
+> a
+
+> a, b
+
+> nil
+
+> f, g
+
+> nil
+
+> nil
+
+> b, c
+
+> c
+
+> nil
+
+> nil
+
+> nil
+
+> e
+
+> e
+
+> bye

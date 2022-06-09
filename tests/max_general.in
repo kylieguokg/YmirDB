@@ -1,0 +1,25 @@
+set a 1000
+list entries
+set b a 20 3999
+list entries
+max a
+max b
+set c 2000
+set d 99999999
+list entries
+append c b
+list entries
+max a
+max b
+max c
+max d
+set d 1000
+set c 1 d
+set b 2 c
+set a b 999
+list entries
+max a
+max b
+max c
+max d
+bye

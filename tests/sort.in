@@ -1,0 +1,18 @@
+sort a
+set a
+get a
+sort a
+get a
+set a 1
+get a
+sort a
+get a
+set a 90 -1000 -20 1000 28 0
+get a
+sort a
+get a
+set repeat 28 28 28 28 28 28
+get repeat
+sort repeat
+get repeat
+bye

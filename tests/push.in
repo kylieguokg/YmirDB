@@ -1,0 +1,16 @@
+push b 23929
+set jam 10 20 304 55
+get jam
+push jam -10000
+get jam
+pop jam
+pop jam
+pop jam
+pop jam
+pop jam
+push jam 0
+push jam
+set jelly 29
+push jelly jam
+list entries
+bye

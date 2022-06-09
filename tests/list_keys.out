@@ -1,0 +1,32 @@
+> no keys
+
+> ok
+
+> hello
+
+> ok
+
+> heLLo
+hello
+
+> ok
+
+> abcdefghijklmno
+heLLo
+hello
+
+> ok
+
+> a1b2c3d4e5cd192
+abcdefghijklmno
+heLLo
+hello
+
+> invalid key
+
+> a1b2c3d4e5cd192
+abcdefghijklmno
+heLLo
+hello
+
+> bye

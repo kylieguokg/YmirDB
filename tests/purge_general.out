@@ -1,0 +1,53 @@
+> ok
+
+> a [1 2 3]
+
+> saved as snapshot 1
+
+> ok
+
+> b [a]
+a [1 2 3]
+
+> saved as snapshot 2
+
+> ok
+
+> c [b]
+b [a]
+a [1 2 3]
+
+> saved as snapshot 3
+
+> not permitted
+
+> not permitted
+
+> ok
+
+> b [a]
+a [1 2 3]
+
+> not permitted
+
+> ok
+
+> a [1 2 3]
+
+> ok
+
+> no entries
+
+> ok
+
+> no entries
+
+> ok
+
+> no entries
+
+> ok
+
+> no entries
+
+> bye

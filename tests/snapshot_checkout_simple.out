@@ -1,0 +1,49 @@
+> saved as snapshot 1
+
+> ok
+
+> a [28 19 0]
+
+> saved as snapshot 2
+
+> ok
+
+> ok
+
+> b [28]
+a [0 28 19 0]
+
+> saved as snapshot 3
+
+> ok
+
+> no entries
+
+> ok
+
+> new [1 2 3]
+
+> saved as snapshot 4
+
+> ok
+
+> a [28 19 0]
+
+> ok
+
+> b [28]
+a [0 28 19 0]
+
+> no such snapshot
+
+> no such snapshot
+
+> ok
+
+> no entries
+
+> ok
+
+> new [1 2 3]
+
+> bye

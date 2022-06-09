@@ -1,0 +1,93 @@
+> no such snapshot
+
+> no snapshots
+
+> ok
+
+> ok
+
+> b [10]
+a [28]
+
+> saved as snapshot 1
+
+> 1
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> d [10]
+c [10]
+
+> saved as snapshot 2
+
+> 2
+1
+
+> ok
+
+> ok
+
+> f [29 1]
+e [19 2]
+d [10]
+c [10]
+
+> saved as snapshot 3
+
+> 3
+2
+1
+
+> ok
+
+> g [e f]
+f [29 1]
+e [19 2]
+d [10]
+c [10]
+
+> saved as snapshot 4
+
+> 4
+3
+2
+1
+
+> ok
+
+> 4
+3
+2
+
+> no such snapshot
+
+> ok
+
+> 4
+2
+
+> no such snapshot
+
+> ok
+
+> 2
+
+> no such snapshot
+
+> saved as snapshot 5
+
+> ok
+
+> g [e f]
+f [29 1]
+e [19 2]
+d [10]
+c [10]
+
+> bye

@@ -1,0 +1,36 @@
+> no such key
+
+> ok
+
+> [1 2 3 4 5 6]
+
+> index out of range
+
+> 6
+
+> index out of range
+
+> 2
+
+> [1 2 3 4 5 6]
+
+> 1
+
+> index out of range
+
+> index out of range
+
+> 4
+
+> ok
+
+> ok
+
+> b [29]
+a [2 3 4 5 6 b]
+
+> b
+
+> 29
+
+> bye

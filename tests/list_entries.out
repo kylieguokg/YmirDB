@@ -1,0 +1,24 @@
+> no entries
+
+> ok
+
+> ok
+
+> b [0 28 10 a]
+a [28 19 10 402 1 2]
+
+> not permitted
+
+> ok
+
+> c [0]
+b [0 28 10 a]
+a [28 19 10 402 1 2]
+
+> no such key
+
+> c [0]
+b [0 28 10 a]
+a [28 19 10 402 1 2]
+
+> bye

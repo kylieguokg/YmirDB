@@ -1,0 +1,44 @@
+> ok
+
+> ok
+
+> b [a 19]
+a [1 2 3]
+
+> not permitted
+
+> ok
+
+> ok
+
+> no entries
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> z [x 10 20 30 40]
+y [10 200]
+x [0 10 20 y]
+
+> not permitted
+
+> not permitted
+
+> ok
+
+> ok
+
+> ok
+
+> no entries
+
+> no such key
+
+> bye

@@ -1,0 +1,18 @@
+purge a
+set a 19 19 20 30
+get a
+purge a
+get a
+set a 20101
+get a
+purge a
+get a
+set wow 10
+set oh 1 2 3
+set dang 2305 39 1
+list entries
+list keys
+purge wow
+purge oh
+purge dang
+bye

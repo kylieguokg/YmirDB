@@ -1,0 +1,30 @@
+uniq a
+set a
+get a
+uniq a
+get a
+append a 1
+get a
+uniq a
+get a
+set a 1 2 3
+get a
+uniq a
+get a
+set a 1 1 1
+get a
+uniq a
+get a
+set b 1 2 3 2 1
+get b
+uniq b
+get b
+set c 1 2 2 3 3 3 4 4 4 4 5 5 5 5 5
+get c
+uniq c
+get c
+set w0w 1 0 0 1 0 0 1
+get w0w
+uniq w0w
+get w0w
+bye

@@ -1,0 +1,36 @@
+pop a
+set a 1 2 3
+get a
+pop a
+pop a
+pop a
+pop a
+get a
+set b a 1
+set c b 1
+set d c 1
+set e d 1
+list entries
+forward a
+forward b
+forward c
+forward d
+forward e
+backward a
+backward b
+backward c
+backward d
+backward e
+pop c
+list entries
+forward a
+forward b
+forward c
+forward d
+forward e
+backward a
+backward b
+backward c
+backward d
+backward e
+bye

@@ -1,0 +1,7 @@
+set a
+sum a
+append a 1000 20 30 -10
+get a
+sum a
+sum b
+bye

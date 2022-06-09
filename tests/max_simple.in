@@ -1,0 +1,14 @@
+max no
+set a
+get a
+max a
+push a 28
+get a
+max a
+set entry -1999 2993 200 123456789 0
+get entry
+max entry
+set entry -10 -10 -10
+get entry
+max entry
+bye

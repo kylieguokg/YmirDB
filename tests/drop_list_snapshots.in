@@ -1,0 +1,36 @@
+drop 1
+list snapshots
+set a 28
+set b 10
+list entries
+snapshot
+list snapshots
+del a
+del b
+set c 10
+set d 10
+list entries
+snapshot
+list snapshots
+set e 19 2
+set f 29 1
+list entries
+snapshot
+list snapshots
+set g e f
+list entries
+snapshot
+list snapshots
+drop 1
+list snapshots
+checkout 1
+drop 3
+list snapshots
+checkout 3
+drop 4
+list snapshots
+checkout 4
+snapshot
+checkout 5
+list entries
+bye

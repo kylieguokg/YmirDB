@@ -1,0 +1,10 @@
+set a b
+set a a
+set a 2
+set b a
+get a
+get b
+set b a a
+get b
+list entries
+BYE

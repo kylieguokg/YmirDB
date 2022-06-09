@@ -1,0 +1,32 @@
+set a 7 8 39 1 10 -29
+sort a
+get a
+uniq a
+get a
+append a 7
+get a
+sort a
+get a
+len a
+rev a
+get a
+uniq a
+get a
+len a
+push a 39
+append a -29
+get a 
+sort a
+get a
+rev a
+get a
+uniq a
+get a
+max a
+min a
+pop a
+pluck a 5
+get a
+max a
+min a
+bye

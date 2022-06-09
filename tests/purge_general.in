@@ -1,0 +1,25 @@
+set a 1 2 3
+list entries
+snapshot
+set b a
+list entries
+snapshot
+set c b
+list entries
+snapshot
+purge a
+purge b
+purge c
+list entries
+purge a
+purge b
+list entries
+purge a
+list entries
+checkout 1
+list entries
+checkout 2
+list entries
+checkout 3
+list entries
+bye

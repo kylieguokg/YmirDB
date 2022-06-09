@@ -1,0 +1,13 @@
+pluck no
+set a 1 2 3
+set b 4 5 6
+pluck a 0
+pluck a 2
+pluck b 2
+get a
+get b
+push a b
+list ENTRIES
+pluck a 1
+list ENTRIES
+bye

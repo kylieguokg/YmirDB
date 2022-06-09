@@ -1,0 +1,23 @@
+set a 0
+get a
+set b a 19
+get b
+min a
+min b
+set c -1000
+get c
+append b c
+get b
+min a
+min b
+min c
+set d -2000
+get d
+push c d
+get c
+LIST ENTRIES
+min a
+min b
+min c
+min d
+bye

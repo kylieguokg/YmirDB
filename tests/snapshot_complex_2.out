@@ -1,0 +1,250 @@
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> h [1]
+g [1]
+b [1]
+a [1]
+
+> saved as snapshot 1
+
+> ok
+
+> ok
+
+> e [g h]
+f [a b]
+h [1]
+g [1]
+b [1]
+a [1]
+
+> saved as snapshot 2
+
+> ok
+
+> ok
+
+> d [f]
+e [g h d]
+f [a b]
+h [1]
+g [1]
+b [1]
+a [1]
+
+> saved as snapshot 3
+
+> ok
+
+> saved as snapshot 4
+
+> ok
+
+> 1
+
+> 1
+
+> 2
+
+> 4
+
+> 2
+
+> 1
+
+> 1
+
+> nil
+
+> nil
+
+> a, b, f
+
+> a, b, d, f, g, h
+
+> a, b
+
+> nil
+
+> nil
+
+> d, e, f
+
+> d, e, f
+
+> e
+
+> nil
+
+> d, e
+
+> e
+
+> e
+
+> d
+
+> ok
+
+> d [e f]
+e [g h]
+f [a b]
+h [1]
+g [1]
+b [1]
+a [1]
+
+> 1
+
+> 1
+
+> 4
+
+> 2
+
+> 2
+
+> 1
+
+> 1
+
+> nil
+
+> nil
+
+> a, b, e, f, g, h
+
+> g, h
+
+> a, b
+
+> nil
+
+> nil
+
+> d, f
+
+> d, f
+
+> nil
+
+> d
+
+> d
+
+> d, e
+
+> d, e
+
+> e
+
+> ok
+
+> d [f]
+e [g h d]
+f [a b]
+h [1]
+g [1]
+b [1]
+a [1]
+
+> 1
+
+> 1
+
+> 2
+
+> 4
+
+> 2
+
+> 1
+
+> 1
+
+> nil
+
+> nil
+
+> a, b, f
+
+> a, b, d, f, g, h
+
+> a, b
+
+> nil
+
+> nil
+
+> d, e, f
+
+> d, e, f
+
+> e
+
+> nil
+
+> d, e
+
+> e
+
+> e
+
+> ok
+
+> ok
+
+> k [28]
+d [f]
+e [g h d]
+f [a b]
+h [1]
+g [1]
+b [1]
+a [1 k]
+
+> 28
+
+> 1
+
+> 28
+
+> 28
+
+> 28
+
+> 1
+
+> 1
+
+> 28
+
+> 1
+
+> 1
+
+> 1
+
+> 1
+
+> 1
+
+> 1
+
+> 1
+
+> 28
+
+> ok
+
+> no such snapshot
+
+> ok
+
+> bye

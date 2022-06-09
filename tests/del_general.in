@@ -1,0 +1,21 @@
+set a 1 2 3
+set b a 19
+list entries
+del a
+del b
+del a
+list entries
+set x 0 10 20
+set y 10 200
+append x y
+set z 10 20 30 40
+push z x
+list entries
+del x
+del y
+del z
+del x
+del y 
+list entries
+get x
+bye
